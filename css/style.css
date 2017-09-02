@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+.header {
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 600px;
+	color: white;
+	
+	-webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+
+}
+
+header {
+	text-align: center; 
+}
+
+.opacity {
+	height: 540px; 
+	background-color: rgba(0,0,0,0.2); 
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-end; 
+}
+
+.portfolio {
+	margin-top: 60px;
+}
+
+header h1 {
+ 	font-family: 'Lobster Two', cursive;
+}
+
+header h2 {
+	font-family: 'Roboto', normal; 
+	font-size: 25px;
+}
+
+h3  {
+	font-size: 55px;
+	font-family: 'Lobster Two', cursive;
+	text-align: center; 
+}
+
+.profile {
+	display: flex; 
+	justify-content: flex-end;
+}
+
+#profile {
+	border: 3px solid #D1C4E9;
+	border-radius: 100%;
+	z-index: 1; 
+}
+ 
+.imagen {
+	width: 300px;
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.imagenB {
+	width: 300px;
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden; 
+}
+
+.imagen:hover {
+ 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+.imagen img {
+	width: 100%; 
+	height: auto; 
+}
+
+.datos {
+	background-color: lightgrey; 
+}
+
+.descripcion {
+	z-index: 1; 
+	position: absolute;
+	bottom: 0;
+	color: white;
+	background-color: rgba(0,0,0,0.7); 
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	text-align: center; 
+}
+
+p, h4 {
+	font-family: 'Roboto', normal; 
+}
+
+
+
+nav {
+	background-color: #673AB7;
+}
+
+.skills {
+	background-color: lightgrey;
+	margin-bottom: 0px; 
+	padding-top: 30px;
+}
+
+
+.skills p {
+	font-weight: 600; 
+	width: 50px;
+}
+
+.progreso {
+	color: grey;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 20px;
+}
+
+.A {
+	background: rgba(3,168,244,1);
+	background: -moz-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,168,244,1)), color-stop(66%, rgba(3,168,244,1)), color-stop(66%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a8f4', endColorstr='#ffffff', GradientType=1 );
+
+}
+
+.B {
+	background: rgba(3,168,244,1);
+	background: -moz-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,168,244,1)), color-stop(51%, rgba(3,168,244,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(3,168,244,1) 0%, rgba(3,168,244,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a8f4', endColorstr='#ffffff', GradientType=1 );
+}
+
+.lenguaje {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+}
+
+.footer {
+	background-color: #673AB7; 
+	text-align: center; 
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+
+.footer p {
+	font-weight: 600; 
+	color: black; 
+}
+
+.contenidoA {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.contenidoB {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.myWrapper {
+	width: 10%;
+	display: flex; 
+	justify-content: space-around; 
+	margin-left: 45%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.myWrapper img {
+	opacity: 0.7; 
+}
+
